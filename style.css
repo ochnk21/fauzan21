@@ -1,0 +1,86 @@
+/* Pengaturan dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0066ff, #00c6ff);
+}
+
+/* Container */
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Kartu profil */
+.profile-card {
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Foto */
+.foto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0066ff;
+    margin-bottom: 15px;
+}
+
+/* Nama */
+.profile-card h1 {
+    color: #0066ff;
+    margin-bottom: 5px;
+}
+
+.profile-card h3 {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Deskripsi */
+.profile-card > p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Informasi */
+.info {
+    background-color: #f2f6ff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin: 8px 0;
+}
+
+/* Tombol */
+button {
+    background-color: #0066ff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0044aa;
+}
